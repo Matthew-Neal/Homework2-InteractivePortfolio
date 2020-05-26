@@ -1,5 +1,11 @@
  #name-block {
-    color: red;
+     font-family: 'Raleway', sans-serif;
+     font-style: "Extra-bold 800";
+     color: teal;
+}
+#navbarSupportedContent {
+    font-family: 'Railway', sans-serif;
+    font-style: "Light 300 italic";
 }
 main {
     float: left;
