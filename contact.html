@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/indexstylesheet.css">
@@ -14,38 +15,37 @@
 
 
 <body>
-    <header>
+    <nav class="flex items-center justify-between flex-wrap bg-gray-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
 
+            <a href="https://www.instagram.com/impulsematt/?hl=en" class="hover:border-white">
+                <img class="fill-current h-8 w-8 mr-2 hover:border-white" width="54" height="54" viewBox="0 0 54 54"
+                    src="./instagram-logo-png-transparent-0.png">
+            </a>
+            </img>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <span class="navbar-brand mb-1 h1" id="name-block">
-                <h1>Matt Neal</h1>
-            </span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            <h5>About</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">
-                            <h5>Portfolio</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
-                            <h5>Contact</h5>
-                        </a>
-                    </li>
-                </ul>
+            <span class="font-semibold text-5xl tracking-tight">Matt Neal</span>
+
+        </div>
+
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-lg lg:flex-grow">
+                <a href="./index.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-300 hover:text-white mr-4">
+                    About
+                </a>
+                <a href="./portfolio.html"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-300 hover:text-white mr-4">
+                    Portfolio
+                </a>
+                <a href="./contact.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-300 hover:text-white">
+                    Contact
+                </a>
             </div>
-        </nav>
-    </header>
+
+
+
+        </div>
+    </nav>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
