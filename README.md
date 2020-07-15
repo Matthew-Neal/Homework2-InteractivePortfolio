@@ -9,4 +9,4 @@ https://matthew-neal.github.io/Portfolio"
 
 <h2>Example</h2>
 <br>
-./Portfolio_img.png
+<img src="./Portfolio_img.png"></img>
